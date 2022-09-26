@@ -1,3 +1,3 @@
-#Demo File
+# Demo File
 
-*Some info goes here*
+Some info goes here.
