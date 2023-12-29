@@ -16,7 +16,489 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.1.2",
-        "cells": []
+        "cells": [
+          {
+            "position": {
+              "x": 29.99999999999983,
+              "y": 300.0000000000001
+            },
+            "size": {
+              "width": 210,
+              "height": 240
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "Data security \nmeasures"
+              }
+            },
+            "id": "86b964d1-feac-481f-ade8-b9f8ed56eb12",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Data security \nmeasures",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 80,
+              "y": -130
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Natalie"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "afc40451-f9b8-4fd4-8cc7-1fa9e814f7da",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Natalie",
+              "description": "Shop manager",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "d5661fe4-683f-4b18-8d5b-d30ec9f3919c",
+            "source": {
+              "x": 330,
+              "y": 510
+            },
+            "target": {
+              "x": 610,
+              "y": 510
+            },
+            "vertices": [
+              {
+                "x": 310,
+                "y": 470
+              },
+              {
+                "x": 380,
+                "y": 420
+              },
+              {
+                "x": 550,
+                "y": 420
+              },
+              {
+                "x": 620,
+                "y": 460
+              },
+              {
+                "x": 620,
+                "y": 510
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 400,
+              "y": -130
+            },
+            "size": {
+              "width": 170,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "External Stakeholders"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "dfc32208-0efb-431a-a084-38a93bf9abc0",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Actor",
+              "name": "External Stakeholders",
+              "description": "Customers ...",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 777,
+              "y": -130
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Garvin"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "a727e121-0cb6-4826-a916-201366d51e3b",
+            "zIndex": 12,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Garvin",
+              "description": "Shop Volunteer",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 250,
+              "y": 50
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Stock Inventory"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "5db21534-9649-47a8-b678-f30bacc41262",
+            "zIndex": 13,
+            "data": {
+              "type": "tm.Store",
+              "name": "Stock Inventory",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 622,
+              "y": 50
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Sales & Donation \nReports"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "af05940b-9103-4229-9858-6f001916cefc",
+            "zIndex": 14,
+            "data": {
+              "type": "tm.Store",
+              "name": "Sales & Donation \nReports",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 400,
+              "y": 212
+            },
+            "size": {
+              "width": 170,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Retail management \nsystem (RMS)"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "c8074580-b54e-42a2-a708-3e8246f3d380",
+            "zIndex": 15,
+            "data": {
+              "type": "tm.Store",
+              "name": "Retail management \nsystem (RMS)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": true,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 390,
+              "y": 450
+            },
+            "size": {
+              "width": 170,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Customer and Volunteer \nInformation"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "a8f30a4f-06b6-4e84-bab1-47d285e7e929",
+            "zIndex": 16,
+            "data": {
+              "type": "tm.Store",
+              "name": "Customer and Volunteer \nInformation",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": true,
+              "isEncrypted": true,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 753,
+              "y": 272
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Online Store Listing"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "6541a173-6f35-49d5-b0b9-f758ca5d5838",
+            "zIndex": 17,
+            "data": {
+              "type": "tm.Store",
+              "name": "Online Store Listing",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1131,
+              "y": 272
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "ePOS Platform"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "5e6fb3f0-fbf7-4c2a-aa34-56b36a73f252",
+            "zIndex": 18,
+            "data": {
+              "type": "tm.Actor",
+              "name": "ePOS Platform",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1073.5,
+              "y": 109.99999999999986
+            },
+            "size": {
+              "width": 170,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "eCommerce Platform"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "5bc0188c-87db-4453-953f-a86b57afadd9",
+            "zIndex": 19,
+            "data": {
+              "type": "tm.Actor",
+              "name": "eCommerce Platform",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 76,
+              "y": 356
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Data backup \nand recovery"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "6ccc7a3d-1d5b-4963-a8c4-116602f4feba",
+            "zIndex": 20,
+            "data": {
+              "type": "tm.Store",
+              "name": "Data backup \nand recovery",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": true,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          }
+        ],
+        "format": "td"
       }
     ],
     "diagramTop": 1,
