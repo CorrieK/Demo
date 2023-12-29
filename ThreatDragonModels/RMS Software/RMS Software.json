@@ -1,0 +1,26 @@
+{
+  "version": "2.1.2",
+  "summary": {
+    "title": "RMS Software",
+    "owner": "StillGood",
+    "description": "A new Retail Management System (RMS) for their store that will interoperate with a new online shop. Stillgood would like to invest in an electronic point-of-sale system for the charity shop that incorporates sales and stock control capabilities.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "RMS Software",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.1.2",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Security and Usability Reviewer",
+    "threatTop": 0
+  }
+}
